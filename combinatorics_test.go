@@ -5,7 +5,7 @@ import (
 )
 
 func ExamplePermutations() {
-  ch:=cPermutations([]interface{}{"A", "B", "C"})
+  ch:=Permutations([]interface{}{"A", "B", "C"})
   
   for p:=range ch {
     fmt.Println(p)
